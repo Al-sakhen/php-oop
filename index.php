@@ -33,6 +33,7 @@
     // call static method
     // Teacher::getAnything();
 
+    // chaining
     $tot = new Calculate();
     echo $tot->addOne()->addTwo()->addThree()->addFour()->getTotal();
 ?>
